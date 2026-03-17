@@ -63,6 +63,15 @@ export default function ServicesSection() {
             </motion.div>
           ))}
         </div>
+
+        <div className="mt-16 text-center">
+          <a 
+            href="#prices"
+            className="inline-block border border-[#E63946] text-[#E63946] px-8 py-3 text-xs font-bold tracking-widest hover:bg-[#E63946] hover:text-white transition-all"
+          >
+            VIEW FULL PRICE LIST
+          </a>
+        </div>
       </div>
     </section>
   );

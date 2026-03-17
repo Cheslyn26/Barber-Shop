@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/home/Navbar';
 import HeroSection from '../components/home/HeroSection';
 import ServicesSection from '../components/home/ServicesSection';
+import PriceListSection from '../components/home/PriceListSection';
 import AboutSection from '../components/home/AboutSection';
 import GallerySection from '../components/home/GallerySection';
 import ContactSection from '../components/home/ContactSection';
@@ -19,6 +20,7 @@ export default function Home() {
       <Navbar onBookNow={scrollToServices} />
       <HeroSection onBookNow={scrollToServices} />
       <ServicesSection />
+      <PriceListSection />
       <AboutSection />
       <GallerySection />
       <ContactSection />

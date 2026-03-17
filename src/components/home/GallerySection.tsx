@@ -3,11 +3,9 @@ import { motion } from 'motion/react';
 
 const images = [
   "https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&q=80&w=600",
-  "https://images.unsplash.com/photo-1599351431247-f10b21ce53e2?auto=format&fit=crop&q=80&w=600",
   "https://images.unsplash.com/photo-1585747860715-2ba37e788b70?auto=format&fit=crop&q=80&w=600",
   "https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&q=80&w=600",
-  "https://images.unsplash.com/photo-1593702295094-28258296548d?auto=format&fit=crop&q=80&w=600",
-  "https://images.unsplash.com/photo-1512690196252-751d077a76cf?auto=format&fit=crop&q=80&w=600"
+  "https://images.unsplash.com/photo-1517832606299-7ae9b720a186?auto=format&fit=crop&q=80&w=600"
 ];
 
 export default function GallerySection() {
